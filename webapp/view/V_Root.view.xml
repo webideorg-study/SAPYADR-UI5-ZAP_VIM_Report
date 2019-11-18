@@ -1,0 +1,9 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" controllerName="ZAP_VIM_Report.controller.V_Root" displayBlock="true">
+	<App id="V_Root">
+		<pages>
+			<Page title="{i18n>v_root_title}">
+				<content/>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

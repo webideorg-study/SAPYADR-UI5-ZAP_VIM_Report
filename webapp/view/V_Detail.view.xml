@@ -1,0 +1,24 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml"
+	controllerName="ZAP_VIM_Report.controller.V_Detail">
+	<App>
+		<pages>
+			<Page title="{i18n>v_detail_title}" showNavButton="true" navButtonPress="GoToOutput">
+				<content>
+					<List noDataText="{i18n>v_detail_nodata}" id="details" class="sapUiSmallMargin">
+						<items>
+							<ObjectListItem>
+								<attributes>
+									<ObjectAttribute text="Sales Order ID: {SalesOrderID}"/>
+									<ObjectAttribute text="Item Position: {ItemPosition}"/>
+									<ObjectAttribute text="Gross Amount: {GrossAmount}"/>
+									<ObjectAttribute text="Quantity: {Quantity}"/>
+									<ObjectAttribute text="Lifecycle Status: {ToHeader/LifecycleStatus}"/>
+								</attributes>
+							</ObjectListItem>
+						</items>
+					</List>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

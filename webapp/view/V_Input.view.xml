@@ -1,0 +1,17 @@
+<mvc:View xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+	controllerName="ZAP_VIM_Report.controller.V_Input" displayBlock="true">
+	<App>
+		<pages>
+			<Page title="{i18n>v_input_title}">
+				<content>
+					<VBox width="100%" direction="Column" class="sapUiSmallMargin">
+						<items>
+							<Input width="50%" id="SO" placeholder="{i18n>v_input_placeholder}" class="sapUiSmallMarginBottom"/>
+							<Button text="{i18n>v_input_text}" width="150px" id="B_GET" press="GetInvoice"/>
+						</items>
+					</VBox>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
